@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i:hover{
+    cursor: pointer;
+
+}
+
+.nav-bar{
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+}
+.nav-bar span{
+    display: flex;
+    align-items: center;
+}
+.nav-bar img{
+    height: 40px;
+    margin-right: 10px;
+}
+ 
+nav ul{
+    margin-left: 30px;
+    font-size: 15px;
+    display: flex;
+}
+
+ul li{
+    margin-right: 12px;
+    color: white;
+    background-color: rgb(0, 154, 0);
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.container{
+    margin: 10px 50px;
+    background-image: url('imgaes/bg.jpg');
+    background-size: cover;
+    height: 68vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-left{
+    /* background-color: blue; */
+    height: 100%;
+    width: 50%;
+    padding :30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.song-list{
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    margin:10px 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.song-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.song-logo img{
+    height: 40px;
+    width: 40px;
+}
+
+.song-name{
+    height: 40px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.song-length{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-right{
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 50%;
+    
+}
+
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    background-color: #0f1111;
+}
+.bottom input{
+    width: 80vw;
+}
+.bottom input:hover{
+    cursor: pointer;
+}
+.controller{
+    margin-top: 20px;
+}
+
+

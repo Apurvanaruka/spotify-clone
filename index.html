@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="imgaes/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <span>
+            <img src="imgaes/logo.png" alt="">
+            Spotify
+        </span>
+        <ul>
+            <li>Home</li>
+            <li>Contact Us</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="container-left">
+            <H2>Best of 2023 Songs</H2>
+            <div class="song-list">
+                <div class="song-logo">
+                    <img src="covers/1.jpg" alt="">
+                </div>
+                <div class="song-name">5-islamic-background-sounds-alfa</div>
+                <div class="song-length">
+                    8.68
+                </div>
+            </div>
+
+        </div>
+        <div class="container-right"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="progressBar" value="0" id="progressBar">
+
+        <div class="controller">
+            <i class="fa-solid fa-2x fa-backward-step" style="color: #ffffff;" id="previous"></i>
+            <i class="fa-regular fa-2x fa-circle-play" style="color: #ffffff;" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" style="color: #ffffff;" id="next"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
